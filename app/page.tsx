@@ -1,3 +1,7 @@
-export default function Home() {
-  return <section>Home</section>;
+// app/page.tsx
+
+import { redirect } from "next/navigation";
+
+export default function MainPage() {
+  return redirect("/home");
 }
